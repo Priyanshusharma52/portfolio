@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  color: #333;
+  text-align: center;
+}
+
+/* Home Page */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.button-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.btn {
+  background: #007acc;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #333;
+  color: #fff;
+}
+
+/* Other Pages */
+.page-container {
+  padding: 50px;
+}
+
+.page-container h1 {
+  color: #007acc;
+}
+
+.project-card {
+  background: #fff;
+  padding: 20px;
+  margin: 15px auto;
+  border-radius: 8px;
+  width: 60%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.back-btn {
+  display: inline-block;
+  margin-top: 30px;
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.back-btn:hover {
+  background: #007acc;
+}
